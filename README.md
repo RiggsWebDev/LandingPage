@@ -1,2 +1,2 @@
 # LandingPage
-The Odin Project - Landing Page - "German Shepherds: Best Dogs Ever"
+The Odin Project - Landing Page - Blank Page Template
