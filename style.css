@@ -1,32 +1,99 @@
-
 * {
-  box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
 }
+
 body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#headercontainer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-right: 320px;
+    padding-left: 215px;
+    height:100%;
+    /*border-style:solid;
+    border-color: pink;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logo {
+  padding-left: 100px;
+  padding-top: -5 px;
+  font-size:24 px;
+}
+
+#logo, #menus {
+    margin: 10px 30px 5px; 
+}
+
+#menus {
+    word-spacing: 10px;
+    padding-top: 9px;
+}
+
+
+.container {
+  padding-top: 50px;
   display: flex;
-  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  /*
+  border-style: dotted;
+  border-color: green; */
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+#logot {
+  font-size: 30px;
+}
+
+#secondt {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.card1 {
+
+  margin-right: 50px;
+  height: 300px;
+  width: 550px;
+  display: flex;
   flex-direction: column;
-  margin: 0;
+  justify-content: center;
+  /*
+  border-style:solid;
+  border-color: blue; */
 }
-#main {
-  display: flex;
-  flex: 1;
+
+.card2 {
+  /*
+  border-style:solid;
+  border-color: blue; */
+  display:flex;
+  height: 300px;
+  width: 600px;
+  background-color: #555;
 }
-#main > article {
-  flex: 1;
-}
-#main > nav, 
-#main > aside {
-  flex: 0 0 20vw;
-  background: beige;
-}
-#main > nav {
-  order: -1;
-}
-header, footer {
-  background: yellowgreen;
-  height: 20vh;
-}
-header, footer, article, nav, aside {
-  padding: 1em;
+
+#btnhome {
+  padding: 5px 5px;
+  background-color: black; /* Green */
+  color: white;
+  font-size: 16px;
+  border-radius: 15px;
+  width: 100px;
 }
